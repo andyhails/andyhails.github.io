@@ -7,19 +7,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link href="http://fonts.googleapis.com/css?family=PT+Serif+Caption" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
   <link href="css/styles.css" rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <!-- Hello! Please excuse the sparse website :-) An update is on my roadmap but until then this is all I have ha-->
 <div class="l-site-container">
-  <div class="l-pos-middle">
-    <p>I Am Andy Hails The <a href="http://www.drupal.org" target="_blank">web developer</a> <span class="martin"><span class="martin-face"></span></span></p>
-    <p>Send me an <a href="mailto:andy@andyhails.co.uk">email!</a></p>
-    <p>OR follow me here -> on <a href="http://www.twitter.com/andyhails" target="_blank">Twitter.</a></p>
-  </div>
-</div>
+  <h1>
+    Andy Hails
+    <span class="subheading">Freelance/contract web developer</span>
+  </h1>
+  <pre class="prettyprint lang-php">
+    // Me
+    $andyHails = WebDeveloper::get();
+    $andyHails->hasExperience([
+      <a href="http://www.drupal.org" target="_blank">DRUPAL,</a>
+      PHP,
+      HTML5,
+      CSS3,
+      JAVASCRIPT,
+      AGILE_PROJECT_MANAGEMENT,
+      TEAM_WORK,
+      DELIVERING,
+    ]);
 
+    // Client
+    $you = new Client();
+    $you->hireToBuildSystem($andyHails);
+    $you->isHappy(); <span class="martin"></span>
+
+    // Contact via <a href="mailto:andy@andyhails.co.uk">Email</a> or <a href="http://www.twitter.com/andyhails" target="_blank">Twitter.</a>
+    $email = '<a href="mailto:andy@andyhails.co.uk" target="_blank">andy@andyhails.co.uk</a>'
+    $twitter = '<a href="http://www.twitter.com/andyhails" target="_blank">@andyhails</a>'
+  </pre>
+</div>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 </body>
 </html>
